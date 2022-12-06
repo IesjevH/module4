@@ -30,5 +30,4 @@ function klikknop()
 
 }
 
-
-
+document.body.innerHTML += "weekend";
