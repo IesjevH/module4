@@ -29,3 +29,4 @@ function klikknop()
     document.getElementById("weekend").innerHTML += "<br>"+completeNaam;
 
 }
+
