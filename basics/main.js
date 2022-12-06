@@ -1,6 +1,6 @@
-var voorNaam = 'Isis';
-var tussenVoegsel = ' van';
-var achterNaam = ' Hemert';
+var voorNaam = "Isis";
+var tussenVoegsel = " van";
+var achterNaam = " Hemert";
 
 var completeNaam = voorNaam + tussenVoegsel + achterNaam;
 
@@ -29,4 +29,6 @@ function klikknop()
     document.getElementById("weekend").innerHTML += "<br>"+completeNaam;
 
 }
+
+
 
