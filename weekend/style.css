@@ -17,6 +17,6 @@ body
 
 img{
     margin-top: -4px;
-    animation: spin  1s linear infinite; 
+    animation: spin  2.5s linear infinite; 
     border-radius: 50%;
 }
