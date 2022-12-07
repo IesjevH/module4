@@ -14,9 +14,9 @@ body
     }
  }
 
-img{
-    margin-top: -4px;
+img {
     animation: spin  1s linear infinite;
+    opacity: 60%;
 }
 
 .wrapper { 
