@@ -15,8 +15,10 @@ body
  }
 
 img {
-    animation: spin  1s linear infinite;
-    opacity: 60%;
+    border-radius: 50%;
+    animation: spin  1.5s linear infinite;
+    filter: hue-rotate(180deg);
+   -webkit-filter:  hue-rotate(180deg);
 }
 
 .wrapper { 
@@ -26,7 +28,7 @@ img {
 opacity:  50% ;
 
     height: 100%;
-    width: 100%;
+    width: 100%; 
     left:0;
     right: 0;
     top: 0;
