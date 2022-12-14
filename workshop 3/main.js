@@ -5,13 +5,13 @@ document.body.appendChild(calculator);
 var result = document.getElementById('result');
 var equation = '';
 function addNumber(number) {
-  equation += number;
-  result.value = equation;
+    equation += number;
+    result.value = equation;
 }
 function clearResult() {
-  equation = '';
-  result.value = 0;
+    equation = '';
+    result.value = 0;
 }
 function calculate() {
-  result.value = eval(equation);
+    result.value = eval(equation);
 }

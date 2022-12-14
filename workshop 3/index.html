@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>rekenmachine</title>
     <link rel="stylesheet" href="./style.css">
     <script defer src="./main.js"></script>
 </head>
 
 <body>
+    <div id="calculator">
     <input type="text" id="result" value="0" disabled>
     <br><br>
     <input type="button" value="1" onclick="addNumber(1)">
@@ -30,9 +31,9 @@
     <br><br>
     <input type="button" value="C" onclick="clearResult()">
     <input type="button" value="0" onclick="addNumber(0)">
-    <input type="button" value="=" onclick="calculate()">'
+    <input type="button" value="=" onclick="calculate()">
     <input type="button" value="/" onclick="addNumber('/')">
-    
+    </div>
 
 </body>
 
