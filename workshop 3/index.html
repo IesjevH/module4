@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
 </head>
 
 <body>
-    <table></table>
-    <td></td>
-    <tr></tr>
-    <div id="container"></div>
-    <div id="calculator"></div>
-    <input type="button"><button></button>
+    <div id="min" onclick="substract()">-</div>
+    <div id="counter">1</div>
+    <div id="plus" onclick="add()">+</div>
+    <input id="input" onchange="calculate()" value="1"></input>
+    <div id="answer"></div>
+    <div id="answer2"></div>
 </body>
 
 </html>
